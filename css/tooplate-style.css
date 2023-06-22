@@ -611,9 +611,9 @@ a[rel="nofollow"] {
   background-color: #ffffff;
 }
 
-.img-skill{max-width:70%;height:auto;
-  margin-left: auto;
-  margin-right: auto;}
+.img-skill{max-width:70px;height:auto;
+  margin-left: 10px;
+  margin-right: 10px;}
 
 /*
 Contact

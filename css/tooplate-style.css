@@ -37,7 +37,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #ffc200 !important;
+  color: #ff7a57 !important;
 }
 
 .navbar-brand .uil {
@@ -106,14 +106,14 @@ a[rel="nofollow"] {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
-  color: #ffc200;
+  color: #ff7a57;
 }
 .custom-btn.custom-btn-bg {
   background: #474559;
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
-  background: #ffc200;
+  background: #ff7a57;
   color: #ffffff !important;
 }
 
@@ -130,7 +130,7 @@ a[rel="nofollow"] {
 }
 
 .animated-item {
-  color: #ffc200;
+  color: #ff7a57;
 }
 
 .animated-item {
@@ -143,6 +143,7 @@ a[rel="nofollow"] {
   top: 0;
   right: 0;
   left: 0;
+  text-align: justify;
   animation: BottomTotop 8s linear infinite;
 }
 .animated-item:nth-child(2n+2) {
@@ -228,7 +229,7 @@ a[rel="nofollow"] {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #ff7a57;
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus span,
@@ -310,7 +311,7 @@ a[rel="nofollow"] {
   color: rgba(255, 255, 255, 0.8);
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #ff7a57;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
   background: #0c0c0d;
@@ -412,7 +413,7 @@ a[rel="nofollow"] {
   font-size: inherit;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #ffc200;
+  color: #ff7a57;
 }
 .owl-theme .owl-dots .owl-dot {
   outline: none;
@@ -444,10 +445,10 @@ a[rel="nofollow"] {
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #ffc200;
+  border-color: #ff7a57;
 }
 .contact-form .submit-btn {
-  background: #ffc200;
+  background: #ff7a57;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -476,7 +477,7 @@ a[rel="nofollow"] {
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #ffc200;
+  color: #ff7a57;
 }
 
 @media (min-width: 1270px) {
@@ -592,7 +593,7 @@ a[rel="nofollow"] {
 	margin-bottom: 30px;
 }
 .services-inner-box:hover {
-  box-shadow: 0 0 3px 2px #ffc200;
+  box-shadow: 0 0 3px 2px #ff7a57;
 }
 .ser-icon{
 	width: 90px;
@@ -643,4 +644,50 @@ Contact
   -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
   -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
   transition: background-color 0.6s ease-out, color 0.6s ease-out;
+}
+/*
+Projects
+*/
+
+.custom-card:hover, .custom-card:active {
+  background: #ff7a57;
+  color: #fff;
+  cursor: pointer;
+}
+
+.custom-card:hover i, .custom-card:active i {
+  color: #fff;
+}
+
+
+.custom-card{
+  border-radius: 0.25rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.container123 {
+  font-size: 5em;
+  background-color: #a8a8a8;
+  color: white;
+  width: 8em;
+  height: 2em;
+  line-height: 2;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+.justified{
+  text-align:left;
+  margin: 10px;
 }

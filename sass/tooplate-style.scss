@@ -17,7 +17,7 @@ $h3-font-color: #484848;
 $body-font-color: #5b5b5b;
 $text-white: #ffffff;
 $dark-mode-color: #0c0c0d;
-$main-color: #ffc200;
+$main-color: #ff7a57;
 $border-color: #f2f2f1;
 $button-color: #474559;
 
@@ -63,6 +63,21 @@ a {
 		color: $main-color !important;
 	}
 }
+a[target="_blank"] {
+	/* Add a text indicator after links with target="_blank" */
+ }
+ 
+ a[rel="noopener"] {
+   /* Add any additional default styling for links with rel="noopener" */
+ }
+ 
+ a[rel="noreferrer"] {
+   /* Add any additional default styling for links with rel="noreferrer" */
+ }
+ 
+ a[rel="nofollow"] {
+   /* Add any additional default styling for links with rel="nofollow" */
+ }
 
 .navbar-brand {
 	.uil {
